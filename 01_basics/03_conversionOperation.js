@@ -1,7 +1,6 @@
 let ifraAge = 22;
 let zohaAge = "16";
 
-
 console.log(typeof ifraAge);  //number
 console.log(typeof zohaAge);  //string bcoz double quotes
 
@@ -22,3 +21,21 @@ let anwarAge = undefined;
 let anwarAgeInNumber = Number(anwarAge);
 console.log(typeof anwarAge);   //type of undefine is undefine
 console.log(anwarAgeInNumber);  //NaN
+
+let swatiAge = true;
+let swatiAgeInNumber = Number(swatiAge);
+console.log(typeof swatiAge);   //type of true is boolean
+console.log(swatiAgeInNumber);  //1 (false value is 0)
+
+let riyaAge = 1;
+let riyaAgeInNumber = Boolean(riyaAge);
+console.log(typeof riyaAgeInNumber);   //type of 1 is boolean
+console.log(riyaAgeInNumber);  //true
+
+let priyaAge = "";
+let priyaAgeInNumber = Boolean(priyaAge);
+console.log(typeof priyaAgeInNumber);   //type of "" is boolean
+console.log(priyaAgeInNumber);    //false
+
+
+
