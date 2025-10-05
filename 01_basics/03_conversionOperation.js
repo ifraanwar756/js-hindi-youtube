@@ -37,5 +37,40 @@ let priyaAgeInNumber = Boolean(priyaAge);
 console.log(typeof priyaAgeInNumber);   //type of "" is boolean
 console.log(priyaAgeInNumber);    //false
 
+//............................OPERATIONS IN JAVASCRIPT..........................
+
+console.log("1" + 2);      //12 treated all as string
+console.log(1 + "2");      //12 add then combine with string
+console.log("1" + 2 + 2);  //122 all treated as string
+console.log(1 + 2 + "2");  //32 first add then combine with string
+
+
+console.log("1" + 2);
+
+//*******increment operator*******//
+
+let x = 5;
+
+console.log(++x); // Output: 6 (first increment, then print)
+console.log(x);   // Output: 6
+
+x = 5;
+console.log(x++); // Output: 5 (first print, then increment)
+console.log(x);   // Output: 6
+
+//*******decrement operator*******//
+
+let y = 10;
+
+console.log(--y); // Output: 9 (decrement first)
+console.log(y);   // Output: 9
+
+y = 10;
+console.log(y--); // Output: 10 (print first)
+console.log(y);   // Output: 9
+
+
+
+
 
 
