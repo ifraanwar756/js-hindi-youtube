@@ -56,3 +56,28 @@ console.log(Object.entries(tinderUser2)); // to print key values in the form of 
 
 console.log(tinderUser2.hasOwnProperty('isLoggedIn'));  // asking if tinderuser2 has this property or not
 
+//restructuring of objects
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Ifra"
+}
+
+const{courseInstructor: instructor} = course
+console.log(courseInstructor);
+
+//json
+{
+    "name": "Ifra",                // the key of json should be written in double quotes
+    "coursename": "js in hindi",
+    "price": "free"
+
+}
+
+//API is also used in array format
+
+[
+    {},
+    {},
+    {}
+]
