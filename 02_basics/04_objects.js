@@ -68,9 +68,9 @@ console.log(courseInstructor);
 
 //json
 {
-    "name": "Ifra",                // the key of json should be written in double quotes
-    "coursename": "js in hindi",
-    "price": "free"
+    "name"; "Ifra",                // the key of json should be written in double quotes
+    "coursename"; "js in hindi",
+    "price"; "free"
 
 }
 
