@@ -24,5 +24,5 @@ console.log(Math.min(4, 3, 8, 9));  //3 --> finds minimum value
 console.log(Math.max(4, 3, 8, 9));  //9 --> finds maximum value
 
 console.log(Math.random());       //returns any random value b/w 0 and 1 basically in decimals
-console.log((Math.random() * 10) + 1);   //returns any random value not in decimal and greater than 0
+console.log((Math.random() *  10) + 1);   //returns any random value not in decimal and greater than 0
 

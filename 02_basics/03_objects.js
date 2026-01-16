@@ -24,7 +24,7 @@ console.log(JsUser.mySym);
 console.log(typeof JsUser.mySym); // string type ==> symbols are not defined in this way
 
 JsUser.email = "ifra@chatgpt.com" // change the value of an object 
-Object.freeze(JsUser) //freeze the valuue so that no one will change it
+Object.freeze(JsUser) //freeze the value so that no one will change it
 JsUser.email = "ifra@microsoft.com"  //after freezing no change in value 
 console.log(JsUser); 
 

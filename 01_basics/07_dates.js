@@ -6,8 +6,8 @@ console.log("toLocaleDateString():", today.toLocaleDateString()); // e.g., "05/1
 console.log("toLocaleTimeString():", today.toLocaleTimeString()); // e.g., "12:45:30 pm"
 console.log("toISOString():", today.toISOString());     // e.g., "2025-10-05T07:15:30.000Z"
 
-let myCreatedDate = new Date(2023, 0, 23);   //show any date
-let myCreatedDateWithTime = new Date(2023, 0, 23, 5, 30);   //show any date with time
+let myCreatedDate = new Date(2026, 0, 23);   //show any date
+let myCreatedDateWithTime = new Date(2026, 0, 23, 5, 30);   //show any date with time
 let myCreatedDateInDiffFormat = new Date("2023-01-14");   //show any date
 
 console.log(myCreatedDate.toLocaleString());

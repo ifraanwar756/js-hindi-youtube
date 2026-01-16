@@ -7,7 +7,7 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String(`ifraanwar`);  //by making an object
 
-console.log(gameName[0]);
+console.log(gameName[0]); //i ==> letter at 0th index
 
 
 // Declare a string

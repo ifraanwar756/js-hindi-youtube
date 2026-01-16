@@ -1,3 +1,4 @@
+
 //PRIMITIVE
 // 7 Types ---> String, Number, Boolean, Null, Undefined, Symbol, BigInt 
 
@@ -41,7 +42,7 @@ const myFunction = function(){    //use of function datatype
 //Stack(Primitive).....Heap(Non Primitive)
 
 
-//**************** EXAMPLE OF STACK***********************
+//****************  EXAMPLE OF STACK  ***********************
 let myYouTubeName = "ifraanwar" 
 
 let anotherName = myYouTubeName
@@ -73,6 +74,7 @@ user2.email = "user2@google.com"   //if changes occur in user2 user1 will automa
 
 console.log(user1.upi);
 console.log(user2.email);
+console.log(user1.email);
 
 //************************ MORE EXAMPLE ***********************
 
