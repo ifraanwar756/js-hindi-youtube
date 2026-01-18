@@ -11,5 +11,5 @@
 // We can also use iife in arrow function 
 
 ( (name) => {
-    console.log(`DB CONNECTED THREE ${name}`);
+    console.log(`DG CONNECTED THREE ${name}`);
 })("Ifra");

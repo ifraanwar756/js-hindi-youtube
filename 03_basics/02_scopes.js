@@ -6,7 +6,7 @@ if(true){
     let a = 20
     var b = 70000
     console.log("Inner loop:", a); // 20 ==> inside the loop
-    console.log(b);
+    console.log(b); //70000
 }
 
 console.log("Outer loop:", a); // 10000 ==> outside the loop 

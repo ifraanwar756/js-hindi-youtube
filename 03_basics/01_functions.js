@@ -79,7 +79,7 @@ handleObject({
 })
 
 // handling array with function
-const myNewArray = [200, 300, 400, 500]
+const getArray = [200, 300, 400, 500]
 
 function returnSecondValue(getArray){
     return getArray[1]
