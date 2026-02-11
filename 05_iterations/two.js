@@ -14,15 +14,15 @@ while (arr < myArray.length){
 }
 
 // do while loop
-let score = 10
+let score_1 = 10
 do{
-    console.log(`Score is ${score}`);
-    score ++ 
-}while (score <= 10);
+    console.log(`Score is ${score_1}`);
+    score_1 ++ 
+}while (score_1 <= 10);
 
 // what if score is 11 ? still it will print score because it check condition after code run at least one time
-let score = 11
+let score_2 = 11
 do{
-    console.log(`Score is ${score}`);
-    score ++ 
-}while (score <= 10);
+    console.log(`Score is ${score_2}`);
+    score_2 ++ 
+}while (score_2 <= 10);
