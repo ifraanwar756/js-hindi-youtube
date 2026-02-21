@@ -1,7 +1,7 @@
-// for each loop for array 
+// for each loop => for array 
 const coding = ["js", "ruby", "java", "python", "cpp"]
-coding.forEach( function (val) {
-    console.log(val);
+coding.forEach( function (value) {
+    console.log(value);
 } )
 
 // arrow function
@@ -9,6 +9,7 @@ coding.forEach( (item) => {
     console.log(item);
 } )
 
+// make function separately to use
 function printMe(item){
     console.log(item);
 }
